@@ -24,12 +24,18 @@
     <ClCompile Include="IntergerToAscii.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AsciiToInteger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringCompare.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IntergerToAscii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsciiToInteger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -143,11 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AsciiToInteger.cpp" />
     <ClCompile Include="IntergerToAscii.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StringCompare.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AsciiToInteger.h" />
     <ClInclude Include="IntergerToAscii.h" />
     <ClInclude Include="StringCompare.h" />
   </ItemGroup>
