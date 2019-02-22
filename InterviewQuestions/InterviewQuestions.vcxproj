@@ -143,10 +143,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IntergerToAscii.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StringCompare.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IntergerToAscii.h" />
     <ClInclude Include="StringCompare.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

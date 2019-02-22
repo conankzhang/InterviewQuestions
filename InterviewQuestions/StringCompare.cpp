@@ -20,8 +20,6 @@ void TestStringCompare()
 
 	result = strcmp(lhs, rhs);
 	assert(result > 0);
-
-	getchar();
 }
 
 int strcmp(const char * i_lhs, const char * i_rhs)
