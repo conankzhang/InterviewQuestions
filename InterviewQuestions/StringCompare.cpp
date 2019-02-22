@@ -13,13 +13,13 @@ void TestStringCompare()
 
 	rhs = "right";
 	result = strcmp(lhs, rhs);
-	assert(result == -1);
+	assert(result < 0);
 
 	lhs = "right";
 	rhs = "left";
 
 	result = strcmp(lhs, rhs);
-	assert(result == 1);
+	assert(result > 0);
 
 	getchar();
 }
@@ -28,28 +28,11 @@ int strcmp(const char * i_lhs, const char * i_rhs)
 {
 	assert(i_lhs && i_rhs);
 
-	while (*i_lhs != '\0')
+	while (*i_lhs != '\0' && *i_lhs == *i_rhs)
 	{
-		if (*i_lhs == *i_rhs)
-		{
-			i_lhs++;
-			i_rhs++;
-			continue;
-		}
-
-		break;
+		i_lhs++;
+		i_rhs++;
 	}
 
-	if (*i_lhs < *i_rhs)
-	{
-		return -1;
-	}
-	else if (*i_lhs > *i_rhs)
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
+	return *i_lhs - *i_rhs;
 }
