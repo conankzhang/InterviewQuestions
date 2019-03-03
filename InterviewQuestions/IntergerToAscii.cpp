@@ -2,7 +2,7 @@
 #include "StringCompare.h"
 #include <assert.h>
 
-void TestIntegerToAscii()
+void InterviewQuestions::TestIntegerToAscii()
 {
 	char buffer[50];
 
@@ -16,7 +16,7 @@ void TestIntegerToAscii()
 	assert( strcmp(ascii, "-800329") == 0);
 }
 
-const char * itoa(int i_int, char * i_buffer, int i_base)
+const char * InterviewQuestions::itoa(int i_int, char * i_buffer, int i_base)
 {
 	i_buffer[0] = '\0';
 
@@ -53,7 +53,7 @@ const char * itoa(int i_int, char * i_buffer, int i_base)
 	return reverse(i_buffer, digit);
 }
 
-char * reverse(char * i_buffer, int i_length)
+char * InterviewQuestions::reverse(char * i_buffer, int i_length)
 {
 	int start = 0;
 	int end = i_length - 1;

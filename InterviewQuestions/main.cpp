@@ -3,10 +3,12 @@
 #include "StringCompare.h"
 #include "IntergerToAscii.h"
 #include "AsciiToInteger.h"
+#include "TwoSum.h"
 
 int main(int i_argc, char** i_args)
 {
-	TestStringCompare();
-	TestIntegerToAscii();
-	TestAsciiToInteger();
+	InterviewQuestions::TestStringCompare();
+	InterviewQuestions::TestIntegerToAscii();
+	InterviewQuestions::TestAsciiToInteger();
+	InterviewQuestions::TestTwoSum();
 }

@@ -1,7 +1,7 @@
 #include "AsciiToInteger.h"
 #include <assert.h>
 
-void TestAsciiToInteger()
+void InterviewQuestions::TestAsciiToInteger()
 {
 	int integer = atoi("125");
 	assert(integer == 125);
@@ -13,7 +13,7 @@ void TestAsciiToInteger()
 	assert(integer == -8120);
 }
 
-int atoi(const char * i_string)
+int InterviewQuestions::atoi(const char * i_string)
 {
 	int integer = 0;
 

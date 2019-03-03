@@ -1,7 +1,10 @@
 #pragma once
 
-void TestIntegerToAscii();
+namespace InterviewQuestions
+{
+	void TestIntegerToAscii();
 
-const char * itoa(int i_int, char * i_buffer, int i_base);
+	const char * itoa(int i_int, char * i_buffer, int i_base);
 
-char * reverse(char * i_buffer, int i_length);
+	char * reverse(char * i_buffer, int i_length);
+}

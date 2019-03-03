@@ -147,11 +147,13 @@
     <ClCompile Include="IntergerToAscii.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StringCompare.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AsciiToInteger.h" />
     <ClInclude Include="IntergerToAscii.h" />
     <ClInclude Include="StringCompare.h" />
+    <ClInclude Include="TwoSum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

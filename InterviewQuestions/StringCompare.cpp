@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-void TestStringCompare()
+void InterviewQuestions::TestStringCompare()
 {
 	const char * lhs = "left";
 	const char * rhs = "left";
@@ -22,7 +22,7 @@ void TestStringCompare()
 	assert(result > 0);
 }
 
-int strcmp(const char * i_lhs, const char * i_rhs)
+int InterviewQuestions::strcmp(const char * i_lhs, const char * i_rhs)
 {
 	assert(i_lhs && i_rhs);
 
