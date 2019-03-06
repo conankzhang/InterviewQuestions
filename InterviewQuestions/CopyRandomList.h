@@ -11,5 +11,5 @@ namespace InterviewQuestions
 
 	void TestCopyRandomList();
 
-	void CopyRandomList(RandomNode* i_pHead);
+	RandomNode* CopyRandomList(RandomNode* i_pHead);
 }
