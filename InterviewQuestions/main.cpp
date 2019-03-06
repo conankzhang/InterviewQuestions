@@ -4,6 +4,7 @@
 #include "IntergerToAscii.h"
 #include "AsciiToInteger.h"
 #include "TwoSum.h"
+#include "CircularList.h"
 
 int main(int i_argc, char** i_args)
 {
@@ -11,4 +12,5 @@ int main(int i_argc, char** i_args)
 	InterviewQuestions::TestIntegerToAscii();
 	InterviewQuestions::TestAsciiToInteger();
 	InterviewQuestions::TestTwoSum();
+	InterviewQuestions::TestCircularList();
 }
