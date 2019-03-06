@@ -6,6 +6,7 @@
 #include "TwoSum.h"
 #include "CircularList.h"
 #include "ReverseList.h"
+#include "ReverseWordOrder.h"
 
 int main(int i_argc, char** i_args)
 {
@@ -15,4 +16,5 @@ int main(int i_argc, char** i_args)
 	InterviewQuestions::TestTwoSum();
 	InterviewQuestions::TestCircularList();
 	InterviewQuestions::TestReverseList();
+	InterviewQuestions::TestReverseWordOrder();
 }

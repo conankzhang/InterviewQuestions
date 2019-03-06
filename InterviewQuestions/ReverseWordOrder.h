@@ -5,5 +5,5 @@
 namespace InterviewQuestions
 {
 	void TestReverseWordOrder();
-	void ReverseWordOrder(std::string i_string);
+	std::string ReverseWordOrder(const std::string& i_string);
 }
