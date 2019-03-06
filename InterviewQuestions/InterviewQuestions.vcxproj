@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="AsciiToInteger.cpp" />
     <ClCompile Include="CircularList.cpp" />
+    <ClCompile Include="CopyRandomList.cpp" />
     <ClCompile Include="IntergerToAscii.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ReverseList.cpp" />
@@ -155,6 +156,7 @@
   <ItemGroup>
     <ClInclude Include="AsciiToInteger.h" />
     <ClInclude Include="CircularList.h" />
+    <ClInclude Include="CopyRandomList.h" />
     <ClInclude Include="IntergerToAscii.h" />
     <ClInclude Include="ReverseList.h" />
     <ClInclude Include="ReverseWordOrder.h" />

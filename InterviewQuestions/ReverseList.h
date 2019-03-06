@@ -2,10 +2,14 @@
 
 namespace InterviewQuestions
 {
-	struct Node;
+	struct ReverseNode
+	{
+		ReverseNode * m_pNext;
+		char m_Value;
+	};
 
 	void TestReverseList();
 
-	void ReverseLinkedList(Node *& i_pHead);
-	bool IsLinkedListReversed(const Node * i_pHead, const char * i_pReversedValue);
+	void ReverseLinkedList(ReverseNode *& i_pHead);
+	bool IsLinkedListReversed(const ReverseNode * i_pHead, const char * i_pReversedValue);
 }

@@ -5,9 +5,9 @@
 
 void InterviewQuestions::TestReverseList()
 {
-	Node* node1 = new Node();
-	Node* node2 = new Node();
-	Node* node3 = new Node();
+	ReverseNode* node1 = new ReverseNode();
+	ReverseNode* node2 = new ReverseNode();
+	ReverseNode* node3 = new ReverseNode();
 
 	node1->m_pNext = node2;
 	node2->m_pNext = node3;
@@ -23,13 +23,13 @@ void InterviewQuestions::TestReverseList()
 	assert(isLinkedListReversed);
 }
 
-void InterviewQuestions::ReverseLinkedList(Node *& i_pHead)
+void InterviewQuestions::ReverseLinkedList(ReverseNode *& i_pHead)
 {
 	assert(i_pHead);
 
-	Node * pPrevious = i_pHead;
-	Node * pCurrent = i_pHead->m_pNext;
-	Node * pNext = nullptr;
+	ReverseNode * pPrevious = i_pHead;
+	ReverseNode * pCurrent = i_pHead->m_pNext;
+	ReverseNode * pNext = nullptr;
 
 	i_pHead->m_pNext = nullptr;
 
@@ -44,7 +44,7 @@ void InterviewQuestions::ReverseLinkedList(Node *& i_pHead)
 	i_pHead = pPrevious;
 }
 
-bool InterviewQuestions::IsLinkedListReversed(const Node * i_pHead, const char * i_pReversedValue)
+bool InterviewQuestions::IsLinkedListReversed(const ReverseNode * i_pHead, const char * i_pReversedValue)
 {
 	assert(i_pHead && i_pReversedValue);
 

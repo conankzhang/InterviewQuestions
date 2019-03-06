@@ -7,6 +7,8 @@
 #include "CircularList.h"
 #include "ReverseList.h"
 #include "ReverseWordOrder.h"
+#include "CopyRandomList.h"
+
 
 int main(int i_argc, char** i_args)
 {
@@ -17,4 +19,5 @@ int main(int i_argc, char** i_args)
 	InterviewQuestions::TestCircularList();
 	InterviewQuestions::TestReverseList();
 	InterviewQuestions::TestReverseWordOrder();
+	InterviewQuestions::TestCopyRandomList();
 }

@@ -2,12 +2,12 @@
 
 namespace InterviewQuestions
 {
-	struct Node
+	struct CircularNode
 	{
-		Node * m_pNext;
+		CircularNode * m_pNext;
 		char m_Value;
 	};
 
 	void TestCircularList();
-	bool IsCircularLinkedList(const Node * i_pHead);
+	bool IsCircularLinkedList(const CircularNode * i_pHead);
 }
