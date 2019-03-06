@@ -1,5 +1,5 @@
 #include "TwoSum.h"
-#include <assert.h>
+#include <cassert>
 
 void InterviewQuestions::TestTwoSum()
 {

@@ -1,7 +1,7 @@
 #include "StringCompare.h"
 
 #include <stdio.h>
-#include <assert.h>
+#include <cassert>
 
 void InterviewQuestions::TestStringCompare()
 {

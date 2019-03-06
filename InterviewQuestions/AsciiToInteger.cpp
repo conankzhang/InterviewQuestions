@@ -1,5 +1,5 @@
 #include "AsciiToInteger.h"
-#include <assert.h>
+#include <cassert>
 
 void InterviewQuestions::TestAsciiToInteger()
 {

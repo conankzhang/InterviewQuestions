@@ -1,7 +1,7 @@
 #include "ReverseList.h"
 #include "CircularList.h"
 
-#include <assert.h>
+#include <cassert>
 
 void InterviewQuestions::TestReverseList()
 {

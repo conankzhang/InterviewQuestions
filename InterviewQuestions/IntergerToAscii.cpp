@@ -1,6 +1,6 @@
 #include "IntergerToAscii.h"
 #include "StringCompare.h"
-#include <assert.h>
+#include <cassert>
 
 void InterviewQuestions::TestIntegerToAscii()
 {

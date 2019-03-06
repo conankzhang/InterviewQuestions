@@ -1,5 +1,7 @@
 #include "ReverseWordOrder.h"
 
+#include <cassert>
+
 void InterviewQuestions::TestReverseWordOrder()
 {
 
